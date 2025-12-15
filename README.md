@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website - Neha Durugkar
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, showcasing my professional experience, projects, and skills.
 
-First, run the development server:
+## 🌟 Features
 
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Dark/Light Mode**: Toggle between dark and light themes for comfortable viewing
+- **Modern UI**: Built with shadcn/ui components for a polished, professional look
+- **Smooth Navigation**: Easy-to-use navigation with smooth scrolling between sections
+- **Interactive Components**: Engaging UI elements and animations
+
+## 🛠️ Technologies Used
+
+- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: Lucide React
+- **Deployment**: Ready for Vercel deployment
+
+## 📋 Sections
+
+- **Hero**: Introduction and professional headline
+- **About**: Background and professional summary
+- **Experience**: Work history and professional experience
+- **Projects**: Showcase of key projects and achievements
+- **Skills**: Technical skills and competencies
+- **Education**: Academic background
+- **Contact**: Get in touch section
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed on your machine
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/NehaMiSeq/PortfolioND.git
+cd PortfolioND
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                    # Next.js app directory
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   ├── globals.css        # Global styles
+│   └── metadata.ts        # SEO metadata
+├── components/            # React components
+│   ├── hero.tsx          # Hero section
+│   ├── about.tsx         # About section
+│   ├── experience.tsx    # Experience section
+│   ├── projects.tsx      # Projects section
+│   ├── skills.tsx        # Skills section
+│   ├── education.tsx     # Education section
+│   ├── contact.tsx       # Contact section
+│   ├── navigation.tsx    # Navigation bar
+│   ├── footer.tsx        # Footer
+│   ├── theme-toggle.tsx  # Dark/light mode toggle
+│   └── ui/               # shadcn/ui components
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions
+└── public/               # Static assets
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To customize the portfolio for your own use:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Update personal information in the component files
+2. Replace images in the `public/` directory
+3. Modify the color scheme in `tailwind.config.ts`
+4. Update metadata in `app/metadata.ts` for SEO
 
-## Deploy on Vercel
+## 🚢 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deploy on Vercel (Recommended)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy this Next.js app is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com/new)
+3. Vercel will automatically detect Next.js and configure the build settings
+4. Click "Deploy" and your site will be live!
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/NehaMiSeq/PortfolioND)
+
+### Other Deployment Options
+
+- **Netlify**: Connect your GitHub repository to Netlify
+- **GitHub Pages**: Use `next export` for static site generation
+- **Self-hosted**: Build and deploy on your own server
+
+## 📝 License
+
+This project is open source and available for personal use.
+
+## 📧 Contact
+
+Neha Durugkar - neha21d@gmail.com
+
+Portfolio: [https://github.com/NehaMiSeq/PortfolioND](https://github.com/NehaMiSeq/PortfolioND)
+
+---
+
+⭐ If you found this portfolio template helpful, please consider giving it a star!
